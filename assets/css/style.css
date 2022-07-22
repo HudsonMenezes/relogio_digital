@@ -9,8 +9,9 @@
 
 body{
   height: 100vh;
-  background: linear-gradient(120deg, #ffe53bd8, #ff2525da);
+  background: linear-gradient(120deg, #03016e, #00003f);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -19,11 +20,12 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 200px;
-  width: 550px;
-  background: transparent;
-  border-radius: 3px;
+  height: 250px;
+  width: 650px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 5px;
   box-shadow: 0 8px 10px rgba(0,0,0,0.4);
+  margin-bottom: 100px;
 }
 
 .relogio div{
@@ -47,4 +49,11 @@ body{
 
 .relogio span.tempo{
   font-size: 16px;
+}
+
+.mensagem p{
+  display: flex;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-style: italic;
 }
